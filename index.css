@@ -1,0 +1,172 @@
+ 
+.total-container {
+  color: #2d2d5f;
+  background-color: #ea9999;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+.bg-container {
+  color: #2d2d5f;
+  background-color: #ea9999;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.profile-con {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.icon {
+  color: red;
+  height: 10px;
+}
+.image-size {
+  height: 50px;
+  width: 50px;
+}
+.image-sizes {
+  height: 33px;
+  width: 33px;
+}
+
+.crolina {
+  border-right: solid;
+  height: 160px;
+}
+.caroline-container {
+  display: flex;
+  justify-content: space-around;
+
+  height: 170px;
+  margin-left: 20px;
+}
+* {
+  margin: 0px;
+  padding-top: 10px;
+}
+.caro-para {
+  padding-left: 30px;
+}
+.heading1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.heading2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.date-container {
+  display: flex;
+  justify-content: space-between;
+}
+.date-para {
+  display: flex;
+}
+.date1 {
+  display: flex;
+  flex-direction: column;
+}
+.date-and-des {
+  display: flex;
+}
+.skill-con {
+  display: flex;
+  justify-content: space-between;
+}
+.ui-and-date-container {
+  display: flex;
+
+  margin-right: 130px;
+}
+.ui-ux-con {
+  display: flex;
+  flex-direction: column;
+  border-right: solid;
+}
+.part {
+  display: flex;
+}
+.solution {
+  display: flex;
+}
+.image-con {
+  margin-left: 20px;
+  border-width: 30px;
+  border-color: red;
+}
+.con {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid black;
+  padding-bottom: 50px;
+  padding-left: 8px;
+}
+.bulb-con {
+  display: flex;
+}
+.icon-container {
+  display: flex;
+  margin-left: 20%;
+}
+.cons {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid black;
+  padding-bottom: 50px;
+  padding-left: 8px;
+  margin-left: 10px;
+  background-color: #2d2d5f;
+}
+.conttoainer {
+  margin-left: 20px;
+}
+.space-con {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-left: 100px;
+  height: 1px;
+  width: 90%;
+}
+.space-cons {
+  margin-top: 0px;
+  margin-bottom: -30px;
+  padding-bottom: 0px;
+  margin-left: 100px;
+  height: 1px;
+  width: 90%;
+}
+.education-container {
+  display: flex;
+  padding-left: 20px;
+}
+.newdate {
+  display: flex;
+}
+.datethree-con {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+  .profile-cons {
+    margin-left: -85px;
+  }
+  .caroline-container {
+    margin-right: 300px;
+  }
+  .date-para {
+    margin-right: 600px;
+  }
+  .ui-and-date-container {
+    margin-right: 750px;
+  }
+  .education-container {
+    margin-right: 750px;
+  }
+}
